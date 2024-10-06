@@ -187,7 +187,8 @@ function checkWin() {
 switchBtn.addEventListener('click', startOver);
 
 lastInput.addEventListener('input',()=>{
-    startOver();
+    showWord();
+startOver();
 })
 // Initialize the game
 startOver();
