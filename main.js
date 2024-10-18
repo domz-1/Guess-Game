@@ -66,6 +66,7 @@ function decreaseAttempts() {
 // Function to display the word if needed
 function showWord() {
     const div = document.createElement('div');
+    div.classList.add('word-display');
     const h1 = document.createElement('h1');
     const p = document.createElement('p');
     const x = document.createElement('button');

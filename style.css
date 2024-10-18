@@ -91,7 +91,7 @@ p{
     flex-direction: column;
     align-items: baseline;
     width: 80%;
-    height: 700px;
+    height: 500px;
     background-color: var(--blue-color);
     align-items: center;
     justify-content: center;
@@ -110,11 +110,34 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px !important;
 }
 .show{
     }
 .row{
-justify-content : space-between ;
+/* justify-content : space-between ; */
+/* gap: 20px; */
+}
+.tries{
+    margin: 0;
+    padding: 0;
+}
+.game{
+    width: 100% !important;
+    height: 300px !important;
+    justify-self: left;
+    /* padding-right: 10px; */
+    padding-left: 10px;
+}
+.word-display{
+    font-size: xx-small;
+    width: 90% !important;
+    height: 500px !important;
+}
+.word-display h1 ,
+.word-display p{
+    font-size: 2rem;
+    text-align: center;
 }
 }
 
